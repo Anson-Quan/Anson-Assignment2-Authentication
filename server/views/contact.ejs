@@ -1,0 +1,52 @@
+<!--
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs'); %>
+</head>
+<body class="bg-light">
+  <header>
+    <%- include('partials/header.ejs'); %>
+  </header>
+  
+  <main class="container">
+    <div class="edit2">
+      <h1 id="size1" class="display-4 text-center"><b>Welcome to my <%= title %></b></h1>
+    </div>
+  </main>
+
+  <p class="edit6">Please don't hesitate to contact me!</p>
+
+  <div>
+    <form>
+      <label for="firstName">First Name: &emsp;<input type="text" id="fname" name="fname" required="required"></label>&emsp;
+      <label for="lastName">Last Name: &emsp;<input type="text" id="lname" name="lname" required="required"></label><br><br>
+      <label for="Email">Email: &emsp;<input type="email" id="email" name="email" required="required"></label><br><br>
+      <label for="contactNumber">Contact Number: &emsp;<input type="text" id="mbNumber" name="mbNumber" require="required"></label><br><br>
+      <label for="message">Your Message: <br><textarea rows="5" cols="70" placeholder="Pleare write your message here!" required="required"></textarea></label><br>
+      <button class="edit7"><a href="/home" id="submit">Submit form</a></button>&emsp;&emsp;
+      <input type="reset" id="reset" value="Rewrite again">
+    </form>
+    <a class="contact-edit" href="http://www.linkedin.com/in/anson-quan"><i class="fa-brands fa-linkedin btn btn-info"> Anson Quan</i></a><br><br><br><br>
+    <a class="contact-edit" href="https://github.com/Anson-Quan"><i class="fa-brands fa-github btn btn-secondary"> Anson Quan</i></a><br><br><br><br>
+    <a class="contact-edit" href="mailto: ansonquan01@gmail.com"><i class="fa-solid fa-envelope btn btn-warm"> Anson Quan</i></a>
+  </div>
+  
+  <footer>
+    <%- include('partials/footer.ejs'); %>  
+  </footer>
+  
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!--
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs'); %>
+</head>
+<body class="bg-light">
+  <header>
+    <%- include('partials/header.ejs'); %>
+  </header>
+  
+  <main class="container">
+    <div class="edit2">
+      <h1 id="size1" class="display-4 text-center"><b>Welcome to my <%= title %></b></h1>
+    </div>
+  </main>
+  
+  <div id="project">
+    <a href="/project 1/assignment02.html"><img class="project-edit1" src="/assets/images/project1.png"></a>
+    <a href="/project 2/assignment1.html"><img class="project-edit2" src="/assets/images/project2.png"></a>
+    <a href="/project 3/assignment3.html"><img class="project-edit3" src="/assets/images/project3.png"></a>
+  </div>
+
+  <div>
+    <p class="project-text1">
+      This is my assignment project from my first semester.<br>
+      It is a fan website for my favorite singer named G.E.M.<br>
+      This web is just to show this artist's introduction, what she has done, about her famous web portfolio and some other websites<br>
+      Moreover, I mentioned about some of her most popular songs too. 
+    </p>
+  </div>
+  <div>
+    <p class="project-text2">
+      This is the second project about BMR Calculator<br>
+      which I did in the second semester.<br>
+      This can count people's BMR for <br>
+      Metric and Imperial through their weights, heights, and ages.
+    </p>
+  </div>
+  <div>
+    <p class="project-text3">
+      This is my third project also from my second semester. <br>
+      It is a photo viewer website using DOM in JavaScript. <br>
+      User can select their favorite<br>
+      pictures and print it under the favorite list.
+    </p>
+  </div>
+  
+  <footer>
+    <%- include('partials/footer.ejs'); %>  
+  </footer>
+  
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+</html>

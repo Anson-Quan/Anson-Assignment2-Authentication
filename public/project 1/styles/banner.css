@@ -1,0 +1,15 @@
+.style>li{
+    display: inline;
+    text-align: center;
+}
+
+.style>li>a{
+    text-decoration: none;
+    padding-right: 30px;
+    color:#332C35;
+}
+
+.style>li>a>img{
+    width: 20px;
+    height: 37px;
+}

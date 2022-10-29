@@ -1,0 +1,12 @@
+:root{
+    --main_color: #000000;
+    --secondary_color: #FFFFE0;
+    --third_color:  #FFFF00;
+    --fourth_color: #8B0000;
+    --fifth_color: #FFA500;
+    --final_color: #00FFFF;
+}
+
+.style1>ul>li>a:hover{
+    color:var(--fourth_color);
+}

@@ -1,0 +1,269 @@
+/*
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+*/
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item:after{
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: grey;
+    width: 0%;
+    height: 4px;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-link{
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.edit1{
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.edit1:hover{
+    transform: scale(2);
+    transform-origin: top right;
+    transition: 1s;
+}
+
+.edit2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#size1{
+    margin-top: -40px;
+    margin-bottom: -30px;
+    text-shadow: -1px 1px 1px #919191,
+        -2px 1px 1px #919191,
+        -3px 1px 1px #919191,
+        -4px 1px 1px #919191,
+        -5px 1px 1px #919191,
+        -6px 1px 1px #919191,
+        -7px 1px 1px #919191,
+        -8px 1px 1px #919191,
+        -9px 1px 1px #919191,
+        -10px 1px 1px #919191,
+        -18px 1px 6px rgba(16,16,16,0.4),
+        -22px 1px 10px rgba(16,16,16,0.2),
+        -25px 1px 35px rgba(16,16,16,0.2),
+        -30px 1px 60px rgba(16,16,16,0.4);
+}
+
+#edit {
+    margin-right: 6px;
+}
+
+#size {
+    margin-top: -14px;
+    margin-bottom: -14px;
+}
+
+.edit3{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;  
+}
+
+.navbar-collapse{
+    text-align: center;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;  
+}
+
+.edit4{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 1200px;
+    text-align: justify;
+}
+
+.edit4>h3{
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 5px;
+    border-style:groove;
+    border-radius: 50px;
+    text-align: center;
+    border-color: rgb(167,189,208);
+    background-color:rgb(164,205,242);
+}
+
+.edit5{
+    float: right;
+    height: 240px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.edit5:hover{
+    transform: scale(2);
+    transform-origin: right bottom;
+    transition: 1s;
+}
+
+#project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#project>a>img{
+    width: 200px;
+    height: 200px;
+    margin-right: 270px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.project-edit1:hover{
+    transform: scale(3);
+    transform-origin: left;
+    transition: 1s;
+}
+
+.project-edit2:hover{
+    transform: scale(3);
+    transition: 1s;
+}
+
+.project-edit3:hover{
+    transform: scale(3);
+    transform-origin: right;
+    transition: 1s;
+}
+
+.project-text1{
+    float: left;
+    width: 500px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.project-text2{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.project-text3{
+    float: right;
+    text-align: justify;
+    margin-top: -113px; 
+    margin-right: 10px;
+}
+
+form{
+    margin-left: 250px;
+}
+
+.edit6{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.contact-edit{
+    float: right;
+    margin-top: -370px;
+    margin-right: 250px;
+}
+
+.edit7{
+    border-color: rgb(164,205,242);
+}
+
+.edit7>a{
+    color: black;
+}
+
+.edit7>a:hover{
+    text-decoration: none;
+    color:#919191;
+}
+
+.edit8{
+    color: rgb(49, 52, 69);
+}
+
+.edit8:hover{
+    text-decoration: none;
+    color: rgb(63, 89, 231 );
+}
+
+#service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#service1{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#service>img{
+    width: 450px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.service-edit1:hover{
+    transform: scale(1.5);
+    transform-origin: left;
+    transition: 1s;
+}
+
+.service-edit2:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.service-edit3:hover{
+    transform: scale(1.5);
+    transform-origin: right;
+    transition: 1s;
+}
+
+.service1-edit1{
+    margin-left: 170px;
+}
+
+.service1-edit2{
+    margin-left: 590px;
+    margin-top: -52px;
+}
+
+.service1-edit3{
+    margin-top: -52px;
+    margin-left: 1160px;
+}
+
+

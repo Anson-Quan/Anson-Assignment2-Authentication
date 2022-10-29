@@ -1,0 +1,79 @@
+<!--
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+-->
+
+<!-- All the icons I am using I all take the sources from this website: https://fontawesome.com -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <a class="navbar-brand" href="/">Web Assignment 2</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        
+        <% if (title == "Home Page") { %>
+        <li class="nav-item active">
+        <% } else { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/home"><i id="edit" class="fa-solid fa-earth-asia"></i>Home Page</a>
+        </li>
+
+        <% if (title == "About Me Page") { %>
+        <li class="nav-item active">
+        <% } else { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/about"><i id="edit" class="fa-regular fa-address-card"></i>About Me</a>
+        </li>
+
+        <% if (title == "Products Page") { %>
+        <li class="nav-item active">
+        <% } else { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/products"><i id="edit" class="fa-solid fa-diagram-project"></i>Projects Page</a>
+        </li>
+
+        <% if (title == "Services Page") { %>
+        <li class="nav-item active">
+        <% } else { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/services"><i id="edit" class="fa-solid fa-computer"></i>Services Page</a>
+        </li>
+
+        <% if (title == "Business Contact") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/business-list"><i class="fas fa-lists fa-address-book"></i> Business Contact Lists </a>
+        </li>
+
+        <% if (title == "Contact Page") { %>
+        <li class="nav-item active">
+        <% } else { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/contact"><i id="edit" class="fa-regular fa-message"></i>Contact Me</a>
+        </li>
+        
+        <% if(typeof displayName == 'string' && displayName) { %>
+          <li class="navbar-text"><i class="fas fa-lg fa-user"></i> Welcome, <%= displayName %></li>
+          <li class="nav-item"><a href="/logout" class="nav-link">
+            <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+        <% } else { %>
+          <li class="nav-item"><a href="/login" class="nav-link">
+            <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+        <% } %>
+      </ul>
+    </div>
+    <a id="size" class="navbar-brand"><img class="edit1" src="/assets/images/Anson Logo.png"></a>
+</nav>

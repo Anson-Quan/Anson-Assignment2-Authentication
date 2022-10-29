@@ -1,0 +1,47 @@
+<!--
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs'); %>
+</head>
+<body class="bg-light">
+  <header>
+    <%- include('partials/header.ejs'); %>
+  </header>
+  
+  <main class="container">
+    <div class="edit2">
+      <h1 id="size1" class="display-4 text-center"><b>Welcome to my <%= title %></b></h1>
+    </div>
+  </main>
+
+  <div id="service">
+    <img class="service-edit1" src="/assets/images/github.jpg"> <!-- This image I downloaded from this link: https://images.app.goo.gl/gNiDT9kagMHUPZp57 -->
+    <img class="service-edit2" src="/assets/images/heroku.png"> <!-- This image I downloaded from this link: https://images.app.goo.gl/ikwqXjoHKpGAKrmZ6 -->
+    <img class="service-edit3" src="/assets/images/MacOS.jpg">  <!-- This image I downloaded from this link: https://images.app.goo.gl/nbCnuvxk4EmQwWvj9 -->
+  </div>
+
+  <div id="service1">
+    <p class="service1-edit1">Git Hub Web</p>
+    <p class="service1-edit2">Heroku: Cloud Application Platform</p>
+    <p class="service1-edit3">Mac OS Operating System</p>
+  </div>
+  
+  <footer>
+    <%- include('partials/footer.ejs'); %>  
+  </footer>
+  
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+</html>

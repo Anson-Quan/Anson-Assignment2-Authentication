@@ -1,0 +1,34 @@
+<!--
+  File: Assignment 2 - Authentication
+  My name: Thuan An Quan - Anson
+  Student number: 301101604
+  Program: Software Engineering Technology
+  Course: Web Application Development - Section 008
+  Professor: Dr. Zakiyabanu Malek
+  Date: October 29, 2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs'); %>
+</head>
+<body class="bg-light">
+  <header>
+    <%- include('partials/header.ejs'); %>
+  </header>
+
+  <h1><%= message %></h1>
+  <h2><%= error.status %></h2>
+  <pre><%= error.stack %></pre>
+
+  <footer>
+    <%- include('partials/footer.ejs'); %>  
+  </footer>
+  
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+</html>
+
+

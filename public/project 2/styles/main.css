@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: var(--secondary_color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.style1{
+    width: 920px;
+    height: 50px;
+    margin-top: -27px;
+    background: linear-gradient(
+        var(--third_color),
+        var(--fifth_color)
+    );
+    border-radius: 10px;
+}
+
+.style1>ul{
+    padding-top: 13px;
+}
+
+.style1>ul>li{
+    display: inline;
+    text-align: center;
+}
+
+.style1>ul>li>a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--main_color);
+    padding-left: 28px;
+    padding-right: 12px;
+}
+
+.style2{
+    width: 950px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-left: 70px;
+}
+
+.style2>h1{
+    color: var(--fourth_color);
+    text-align: center;
+    padding-right: 190px;
+}
+
+.style2>hr{
+    width: 650px;
+    margin-left: 50px; 
+    border-color: var(--main_color);
+    border-width: 2px;
+}
+
+.style2>select{
+    font-size: 21px;
+    border-radius: 5px;
+
+}
+
+.style2>label>input{
+    width: 130px;
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+.style2>input{
+    font-size: 21px;
+    border-radius: 7px;
+}
+
